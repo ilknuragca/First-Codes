@@ -2,8 +2,10 @@ package day01try;
 
 import java.util.Scanner;
 
-public class SwapWithoutValue {
-
+public class SwapWithoutVariable {
+	
+         //Swap two number without using third variable
+	
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("please enter 2 integers..");

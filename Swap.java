@@ -11,7 +11,7 @@ public class Swap {
 		int num2=scan.nextInt();
 		System.out.println("1. number = " + num1 +" / "+ " 2. number = " + num2);
 		
-		int swap=0;
+		int swap;
 		swap=num1;
 		num1=num2;
 		num2=swap;

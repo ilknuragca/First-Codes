@@ -2,7 +2,7 @@ package day01try;
 
 import java.util.Scanner;
 
-public class Modulus {
+public class ModulusAndArea {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);

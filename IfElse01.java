@@ -10,41 +10,7 @@ public class IfElse01 {
  * If a year is not divisible by 100 then it must be divisible by 4. ==>2004 is leap year, but 2007 is not 
  */
 	
-	/*
-	 * && means "and": If you use "&&" between 2 things it means you want both
-	 *                 For ex: "tea && coffee" mean I want both, just of them will not be enough
-	 *                 
-	 *            To get true from && operation all must be true     
-	 *                 true && true ==> true
-	 *                 true && false ==> false
-	 *                 false && true ==> false
-	 *                 false && false ==> false 
-	 *                 
-	 * &means "and":   If you use "&" between 2 things it means you want both
-	 *                 For ex: "tea & coffee" mean I want both, just of them will not be enough
-	 *                 
-	 *              To get true from & operation all must be true     
-	 *                 true & true ==> true
-	 *                 true & false ==> false
-	 *                 false & true ==> false
-	 *                false & false ==> false 
-	 *                
-	 *   Note:   "&" and "&&" do the same . 
-	 *            but "&&" does'nt check the second condition if the first condition is false
-	 *            "&" checks both conditions ever time
-	 *            so "&&" better. because java will work less..      
-	*/
 	
-	/*
-	 *  || means "or" : If you use "||" between 2 things it means at least 1 of them is enough for you 
-	 *                  For ex: "tea || coffee" means just tea, or just coffee , or both
-	 *             
-	 *               To get false from || operation all must be false 
-	 *                 true || true ==> true
-	 *                 true || false ==> true
-	 *                 false || true ==> true
-	 *                 false || false ==> false 
-	 */ 
 	
 	public static void main(String[] args) {
 		

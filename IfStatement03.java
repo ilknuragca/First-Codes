@@ -10,7 +10,7 @@ public class IfStatement03 {
 			
 			 Scanner scan=new Scanner(System.in);
 		        System.out.println("Enter a month name..");
-		        String monthName=scan.next();  //month names are in a single character. for use next.  more than==>nextLine()
+		        String monthName=scan.next();
 		        
 		        if(monthName.equalsIgnoreCase("December") || monthName.equalsIgnoreCase("January") || monthName.equalsIgnoreCase("February"))
 		        {

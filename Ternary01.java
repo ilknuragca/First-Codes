@@ -3,13 +3,13 @@ package day05nestedifternary;
 public class Ternary01 {
 	
 	public static void main(String[] args) {
-		//If an integer is positive print "The integer is positive" otherwise print "The integer is not positive"
-		int num =12; //0 or -3 try
-		//solve by using if-else
+		
+		int num =12; 
+	
 		
 		if(num>0) {System.out.println("The integer is positive");} else {System.out.println("The integer is not positive");}
 				 
-	//solve by using ternary	
+		
    	    String result= num>0 ?	 "The integer is positive" : "The integer is not positive";
 		System.out.println(result);	
 		
